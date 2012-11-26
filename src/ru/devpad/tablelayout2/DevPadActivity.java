@@ -42,7 +42,7 @@ public class DevPadActivity extends Activity {
     }
 
     public void createTableActibvity(View v) {
-        startActivity(new Intent(this, TableActibvity.class));
+        startActivity(new Intent(this, TableActivity.class));
     }
 
     public void onClick(View view) {

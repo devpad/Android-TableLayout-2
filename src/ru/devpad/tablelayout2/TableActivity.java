@@ -6,7 +6,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.*;
 
-public class TableActibvity extends Activity {
+public class TableActivity extends Activity {
     private TableLayout table;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class TableActibvity extends Activity {
 
         Button buttonAdd = (Button) findViewById(R.id.add_button);
         table = (TableLayout) findViewById(R.id.table);
+
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 EditText addUser = (EditText) findViewById(R.id.add_user);
